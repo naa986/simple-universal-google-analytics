@@ -1,9 +1,9 @@
 === Simple Universal Google Analytics ===
 Contributors: naa986
 Donate link: https://wphowto.net/
-Tags: analytics, google, google analytics, statistics, stats, tracking 
+Tags: analytics, google analytics, google analytics dashboard, google analytics plugin, google analytics widget
 Requires at least: 4.2
-Tested up to: 5.0
+Tested up to: 5.1
 Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
