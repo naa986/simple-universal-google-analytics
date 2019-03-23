@@ -14,6 +14,8 @@ Enable Universal Google Analytics tracking option on your WordPress site. Add tr
 
 [Simple Google Analytics](https://wphowto.net/simple-universal-google-analytics-plugin-for-wordpress-822) plugin makes Google Analytics tracking easier. If you want to activate universal tracking for your website, all you need to do is enter your tracking ID in the plugin settings.
 
+https://www.youtube.com/watch?v=9g8ZBdHuR9s&rel=0
+
 = What is Universal Google Analytics? = 
 
 Universal Analytics is the new and upgraded operating standard for Google Analytics. It provides a better data collection and organization system in your Google analytics account to help you understand how users interact with your content. If you are already using Google Analytics, you can follow two steps in your account to upgrade from classic analytics to universal analytics.
