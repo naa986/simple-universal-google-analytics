@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Simple Universal Google Analytics
-Version: 1.0.4
+Version: 1.0.5
 Plugin URI: http://wphowto.net/simple-universal-google-analytics-plugin-for-wordpress-822
 Author: naa986
 Author URI: http://wphowto.net/
@@ -17,7 +17,7 @@ if (!class_exists('SIMPLE_UNIVERSAL_GA')) {
 
     class SIMPLE_UNIVERSAL_GA {
 
-        var $plugin_version = '1.0.4';
+        var $plugin_version = '1.0.5';
 
         function __construct() {
             define('SIMPLE_UNIVERSAL_GA_VERSION', $this->plugin_version);
@@ -106,10 +106,8 @@ if (!class_exists('SIMPLE_UNIVERSAL_GA')) {
         
         function is_logged_in(){
             $is_logged_in = false;
-            if(is_user_logged_in()){ //the user is logged in
-                if(current_user_can('editor') || current_user_can('administrator')){
-                    $is_logged_in = true;
-                }
+            if(current_user_can('manage_options')){
+                $is_logged_in = true;
             }
             return $is_logged_in; 
         }

@@ -1,10 +1,10 @@
 === Simple Universal Google Analytics ===
 Contributors: naa986
 Donate link: https://wphowto.net/
-Tags: analytics, google analytics, google analytics dashboard, google analytics plugin, google analytics widget
+Tags: analytics, google, google analytics, tracking, ga
 Requires at least: 4.2
-Tested up to: 5.5
-Stable tag: 1.0.4
+Tested up to: 5.7
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,19 +57,18 @@ none
 
 == Changelog ==
 
-= 1.0.4 =
+= 1.0.5 =
+* Tracking code is now added if the current user does not have the "manage_options" capability.
 
+= 1.0.4 =
 * Added download tracking option with the [Easy Media Download](https://wordpress.org/plugins/easy-media-download/) plugin.
 
 = 1.0.3 =
-
 * Added translation option so the plugin can take advantage of language packs
 * Simple Universal Google Analytics is now compatible with WordPress 4.4
 
 = 1.0.2 =
-
 * Simple Universal Google Analytics is now compatible with WordPress 4.3
 
 = 1.0.1 =
-
 * First commit
